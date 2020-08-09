@@ -1,0 +1,16 @@
+[package]
+name = "dirty-json"
+description = "Fix up dirty JSON string"
+keywords = ["json", "bad json", "dirty json", "fix json"]
+version = "0.1.0"
+authors = ["messense <messense@icloud.com>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/messense/dirty-json-rs"
+repository = "https://github.com/messense/dirty-json-rs.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+json-tools = "1.1.2"
