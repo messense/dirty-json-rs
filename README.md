@@ -13,7 +13,7 @@ Fix up dirty JSON string
 ```rust
 fn main() {
     let json = r#"{1: "foo", 2 : "bar"}"#;
-    let fixed = fix(json);
+    let fixed = dirty_json::fix(json);
     assert_eq!(fixed, r#"{"1":"foo","2":"bar"}"#);
 }
 ```
