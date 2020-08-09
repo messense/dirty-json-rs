@@ -1,7 +1,7 @@
 [package]
 name = "dirty-json"
 description = "Fix up dirty JSON string"
-keywords = ["json", "bad json", "dirty json", "fix json"]
+keywords = ["json", "bad-json", "dirty-json", "fix-json"]
 version = "0.1.0"
 authors = ["messense <messense@icloud.com>"]
 edition = "2018"
